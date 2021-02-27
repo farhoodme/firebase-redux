@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "test-firebase-redux",
-    "slug": "test-firebase-redux",
+    "name": "firebase-redux",
+    "slug": "firebase-redux",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -23,7 +21,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.farhood.firebase_redux",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
